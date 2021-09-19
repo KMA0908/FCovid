@@ -5,12 +5,11 @@
       <map>
         <entry key="..\:/FCovid/app/src/main/res/layout/activity_main.xml" value="0.228125" />
         <entry key="..\:/FCovid/app/src/main/res/layout/m001_splash_fragment.xml" value="0.121875" />
-        <entry key="..\:/Users/tung/Desktop/FCovid/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/tung/Desktop/FCovid/app/src/main/res/layout/m003_intro_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/FCovid/app/src/main/res/layout/m003_intro_fragment.xml" value="0.2421875" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
