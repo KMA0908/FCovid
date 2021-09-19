@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="375dp"
+    android:layout_height="812dp">
+
+    <ImageView
+        android:layout_width="388dp"
+        android:layout_height="505dp"
+        android:layout_marginStart="-12dp"
+        android:layout_marginTop="134dp"
+        android:src="@drawable/mask_man_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/mask_man"/>
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/cool_colors__1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/cool_colors"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="712dp"
+        android:src="@drawable/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/button_icon"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
