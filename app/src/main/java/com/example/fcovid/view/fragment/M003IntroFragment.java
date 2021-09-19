@@ -11,11 +11,6 @@ import com.example.fcovid.view.viewmodel.Intro003ViewModel;
 public class M003IntroFragment extends BaseFragment<M003IntroFragmentBinding, Intro003ViewModel>{
 
     public static final String KEY_SHOW_INTRO_FRAGMENT = "KEY_SHOW_INTRO_FRAGMENT";
-    private OnActionCallBack mCallBack;
-
-    public void setmCallBack(OnActionCallBack mCallBack){
-        this.mCallBack = mCallBack;
-    }
 
     @Override
     protected M003IntroFragmentBinding initBinding(View mRootView) {
@@ -35,5 +30,17 @@ public class M003IntroFragment extends BaseFragment<M003IntroFragmentBinding, In
     @Override
     protected void initViews() {
 
+    }
+
+    private void gotoM004IntroFragment() {
+        callBack.callBack(KEY_SHOW_INTRO_FRAGMENT, null);
+    }
+
+    @Override
+    public void onClick(View v) {
+        super.onClick(v);
+        if (v.getId() == R.id.button_intro_003){
+            gotoM004IntroFragment();
+        }
     }
 }
