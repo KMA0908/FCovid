@@ -1,8 +1,5 @@
 package com.example.fcovid.view.act;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 import android.view.View;
 
 import com.example.fcovid.OnActionCallBack;
@@ -36,4 +33,5 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, MainViewMode
     public void callBack(String key, Object data) {
 
     }
+
 }

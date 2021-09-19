@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.fcovid.OnActionCallBack;
 
-public abstract class BaseFragment<K extends ViewDataBinding, V extends ViewModel> extends Fragment
+abstract class BaseFragment<K extends ViewDataBinding, V extends ViewModel> extends Fragment
         implements View.OnClickListener {
     protected Context mContext;
     protected View mRootView;
